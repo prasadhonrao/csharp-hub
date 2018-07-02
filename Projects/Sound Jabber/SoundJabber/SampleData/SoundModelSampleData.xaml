@@ -1,0 +1,66 @@
+﻿<vm:SoundModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:SoundJabber.ViewModels">
+
+    <vm:SoundModel.Animals>
+        <vm:SoundGroup Title="Animals34">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Animals 1" FilePath="Animals.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Animals>
+
+    <vm:SoundModel.Cartoons>
+        <vm:SoundGroup Title="Cartoons">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Cartoons 1" FilePath="Cartoons.wav" />
+                <vm:SoundData Title="Cartoons 2" FilePath="Cartoons.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Cartoons>
+
+    <vm:SoundModel.Taunts>
+        <vm:SoundGroup Title="Taunts">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Taunts 1" FilePath="Taunts.wav" />
+                <vm:SoundData Title="Taunts 2" FilePath="Taunts.wav" />
+                <vm:SoundData Title="Taunts 3" FilePath="Taunts.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Taunts>
+
+    <vm:SoundModel.Vehicles>
+        <vm:SoundGroup Title="Vehicles">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Vehicle 1" FilePath="Vehicle.wav" />
+                <vm:SoundData Title="Vehicle 2" FilePath="Vehicle.wav" />
+                <vm:SoundData Title="Vehicle 3" FilePath="Vehicle.wav" />
+                <vm:SoundData Title="Vehicle 4" FilePath="Vehicle.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Vehicles>
+    
+    <vm:SoundModel.Warnings>
+        <vm:SoundGroup Title="Warnings">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Warnings 1" FilePath="Warnings.wav" />
+                <vm:SoundData Title="Warnings 2" FilePath="Warnings.wav" />
+                <vm:SoundData Title="Warnings 3" FilePath="Warnings.wav" />
+                <vm:SoundData Title="Warnings 4" FilePath="Warnings.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.Warnings>
+
+    <vm:SoundModel.CustomSounds>
+        <vm:SoundGroup Title="Custom">
+            <vm:SoundGroup.Items>
+                <vm:SoundData Title="Custom 1" FilePath="Custom.wav" />
+                <vm:SoundData Title="Custom 2" FilePath="Custom.wav" />
+                <vm:SoundData Title="Custom 3" FilePath="Custom.wav" />
+                <vm:SoundData Title="Custom 4" FilePath="Custom.wav" />
+            </vm:SoundGroup.Items>
+        </vm:SoundGroup>
+    </vm:SoundModel.CustomSounds>
+
+</vm:SoundModel>

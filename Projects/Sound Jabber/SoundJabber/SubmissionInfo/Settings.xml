@@ -1,0 +1,6 @@
+<MarketplaceDetails>
+  <SmallAppTile>ApplicationStoreIcon.png</SmallAppTile>
+  <ScreenShots>Animal_WGA.png;Cartoons_WGA.png;Taunts_WGA.png;Vehicles_WGA.png;Warnings_WGA.png;Recorder_WGA.png;Custom_WGA.png;;</ScreenShots>
+  <ScreenShotsWXGA>Animals_WXGA.png;Cartoons_WXGA.png;Taunts_WXGA.png;Vehicles_WXGA.png;Warnings_WXGA.png;Recorder_WXGA.png;Custom_WXGA.png;;</ScreenShotsWXGA>
+  <ScreenShots720P>Animals_720.png;Cartoons_720.png;Taunts_720.png;Vehicles_720.png;Warnings_720.png;Recorder_720.png;Custom_720.png;;</ScreenShots720P>
+</MarketplaceDetails>

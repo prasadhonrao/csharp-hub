@@ -1,0 +1,13 @@
+Sequential vs Parallel code
+Task Download
+Task Wait
+Task WaitAll
+Task WaitAny
+Task Result Harvest
+Task ContinueWith
+Task Exception Handling
+Task List
+Task Parameter
+Task Parent Child
+Task Race
+Task RaceLockSolution

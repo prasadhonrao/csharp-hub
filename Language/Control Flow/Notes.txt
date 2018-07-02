@@ -1,0 +1,9 @@
+If - Else
+Switch - Case
+While
+Do - While
+For
+For - Each
+Break - Continue
+Yield
+	Yield works in lazy load manner

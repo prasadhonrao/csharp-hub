@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto Properties", "Auto Properties\Auto Properties.csproj", "{52AF1610-D024-496A-B1F1-20159BA6AE87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct.Tests", "Struct.Tests\Struct.Tests.csproj", "{56ED8787-E6EA-4D8E-A3F9-ED0E6FA32B47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCF73333-AAD4-4C28-A3C3-96BC13F56019}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52AF1610-D024-496A-B1F1-20159BA6AE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AF1610-D024-496A-B1F1-20159BA6AE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AF1610-D024-496A-B1F1-20159BA6AE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AF1610-D024-496A-B1F1-20159BA6AE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56ED8787-E6EA-4D8E-A3F9-ED0E6FA32B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56ED8787-E6EA-4D8E-A3F9-ED0E6FA32B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56ED8787-E6EA-4D8E-A3F9-ED0E6FA32B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56ED8787-E6EA-4D8E-A3F9-ED0E6FA32B47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ABB73D7-B93E-4726-AA33-B24BB7CAFC18}
+	EndGlobalSection
+EndGlobal

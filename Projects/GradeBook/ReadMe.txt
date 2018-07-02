@@ -1,0 +1,1 @@
+Sample applicatoin to store student grades and calculate Highest, Lowest and Average Grades. Program also demonstrates usage of unit testing.

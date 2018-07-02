@@ -1,0 +1,2 @@
+Structs.Tests
+Auto Properties
