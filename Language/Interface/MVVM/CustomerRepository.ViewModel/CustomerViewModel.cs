@@ -6,6 +6,7 @@ namespace CustomerRepository.ViewModel
 {
     public class CustomerViewModel : INotifyPropertyChanged
     {
+        ICustomerRepository repo;
         private IEnumerable<Customer> customers;
 
         public IEnumerable<Customer> Customers
@@ -17,8 +18,6 @@ namespace CustomerRepository.ViewModel
                 RaisePropertyChanged("Customers");
             }
         }
-
-        ICustomerRepository repo;
 
         public CustomerViewModel()
         {
@@ -38,8 +37,7 @@ namespace CustomerRepository.ViewModel
         public event PropertyChangedEventHandler PropertyChanged;
         private void RaisePropertyChanged(string propertyName)
         {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
