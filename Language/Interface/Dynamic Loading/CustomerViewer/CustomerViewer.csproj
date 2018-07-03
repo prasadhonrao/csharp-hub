@@ -98,7 +98,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CustomerRepository.Interface\CustomerRepository.Interface.csproj">
       <Project>{52dc8809-a522-4af1-8325-2a2407a853b1}</Project>
-      <Name>CustomerRepository.Interface %2805. Dynamic Loading\CustomerRepository.Interface%29</Name>
+      <Name>CustomerRepository.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

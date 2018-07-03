@@ -60,7 +60,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CustomerRepository.Interface\CustomerRepository.Interface.csproj">
       <Project>{9f2916c2-299b-4a73-96f2-139eec7ecf7c}</Project>
-      <Name>CustomerRepository.Interface %2803. Extensibility\CustomerRepository.Interface%29</Name>
+      <Name>CustomerRepository.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

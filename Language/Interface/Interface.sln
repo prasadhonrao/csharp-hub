@@ -36,7 +36,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerRepository.XML", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerViewer", "Dynamic Loading\CustomerViewer\CustomerViewer.csproj", "{58F7EB77-712F-435B-9D35-6FC9AEE9131E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. MVVM", "06. MVVM", "{354104BE-9B09-4102-93D0-8E21CA781B72}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Unit Testing", "06. Unit Testing", "{354104BE-9B09-4102-93D0-8E21CA781B72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerViewer", "MVVM\CustomerViewer\CustomerViewer.csproj", "{AE5A20E8-E41E-44A8-A693-D321A41F8DEB}"
 EndProject

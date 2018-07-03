@@ -61,7 +61,7 @@
     </ProjectReference>
     <ProjectReference Include="..\CustomerRepository.Interface\CustomerRepository.Interface.csproj">
       <Project>{c39ba790-51bf-484d-8fbc-0fe69f2066f7}</Project>
-      <Name>CustomerRepository.Interface %2806. MVVM\CustomerRepository.Interface%29</Name>
+      <Name>CustomerRepository.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\CustomerRepository.ViewModel\CustomerRepository.ViewModel.csproj">
       <Project>{00475650-da71-4705-8210-5c522deda1b5}</Project>

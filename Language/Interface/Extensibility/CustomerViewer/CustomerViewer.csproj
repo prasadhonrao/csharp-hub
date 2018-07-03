@@ -101,15 +101,15 @@
     </ProjectReference>
     <ProjectReference Include="..\CustomerRepository.Interface\CustomerRepository.Interface.csproj">
       <Project>{9f2916c2-299b-4a73-96f2-139eec7ecf7c}</Project>
-      <Name>CustomerRepository.Interface %2803. Extensibility\CustomerRepository.Interface%29</Name>
+      <Name>CustomerRepository.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\CustomerRepository.SQL\CustomerRepository.SQL.csproj">
       <Project>{9d44e1e8-1823-4832-aae0-350ff3ce1dad}</Project>
-      <Name>CustomerRepository.SQL %2803. Extensibility\CustomerRepository.SQL%29</Name>
+      <Name>CustomerRepository.SQL</Name>
     </ProjectReference>
     <ProjectReference Include="..\CustomerRepository.XML\CustomerRepository.XML.csproj">
       <Project>{f2d65a6a-3400-404b-b245-a2f11f3b6de7}</Project>
-      <Name>CustomerRepository.XML %2803. Extensibility\CustomerRepository.XML%29</Name>
+      <Name>CustomerRepository.XML</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
