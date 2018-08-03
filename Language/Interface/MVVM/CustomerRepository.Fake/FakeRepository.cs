@@ -1,4 +1,4 @@
-﻿using CustomerRepository.Interface;
+﻿=using CustomerRepository.Interface;
 using System.Collections.Generic;
 
 namespace CustomerRepository.Fake
