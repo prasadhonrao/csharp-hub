@@ -56,13 +56,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExceptionHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{514eaf1f-2a71-42b1-a65f-5b175ccf3298}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EL\EL.csproj">
+      <Project>{3789f1b0-6916-485f-9e9d-4731ef252632}</Project>
+      <Name>EL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
