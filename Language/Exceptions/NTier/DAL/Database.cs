@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    class Database
+    public class Database
     {
+        public List<Product> GetProducts()
+        {
+            var context = new NorthwindEntities();
+            return context.Products.ToList();
+        }
     }
 }
