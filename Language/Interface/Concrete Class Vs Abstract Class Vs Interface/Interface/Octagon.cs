@@ -4,9 +4,10 @@ namespace Learn.CSharp.Language
 {
     public class Octagon : IRegularPolygon
     {
-        public int SideLength { get; private set; }
-        public int NumberOfSides { get; private set; }
+        public int SideLength { get;  set; }
+        public int NumberOfSides { get;  set; }
 
+     
         public Octagon(int length)
         {
             NumberOfSides = 8;

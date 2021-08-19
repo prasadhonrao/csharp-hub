@@ -4,12 +4,12 @@ namespace Learn.CSharp.Language
 {
     public class Triangle : IRegularPolygon
     {
-        public int SideLength { get; private set; }
-        public int NumberOfSides { get; private set; }
+        public int SideLength { get;  set; }
+        public int NumberOfSides { get; set; }
 
-        public Triangle(int legth)
+        public Triangle(int length)
         {
-            this.SideLength = legth;
+            this.SideLength = length;
             this.NumberOfSides = 3;
         }
 

@@ -2,8 +2,8 @@
 {
     public interface IRegularPolygon
     {
-        int SideLength { get; }
-        int NumberOfSides { get;}
+        int SideLength { get; set; }
+        int NumberOfSides { get; set; }
 
         double GetArea();
         double GetPerimeter();

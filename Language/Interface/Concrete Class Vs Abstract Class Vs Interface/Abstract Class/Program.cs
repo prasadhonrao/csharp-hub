@@ -7,10 +7,10 @@ namespace Learn.CSharp.Language
         static void Main(string[] args)
         {
             var squareLength = 10;
-            var sqaure = new Square(squareLength);
+            var square = new Square(squareLength);
             Console.WriteLine("Square side length is {0}", squareLength);
-            Console.WriteLine("Square perimeter is {0}", sqaure.GetPerimeter());
-            Console.WriteLine("Square area is {0}", sqaure.GetArea());
+            Console.WriteLine("Square perimeter is {0}", square.GetPerimeter());
+            Console.WriteLine("Square area is {0}", square.GetArea());
             Console.WriteLine();
 
             var triangleLength = 10;
