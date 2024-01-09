@@ -1,28 +1,19 @@
 ﻿using static System.Console;
+Console.WriteLine("For Loop!");
 
-namespace Learn.CSharp.ControlFlow
+Write("Enter number to calculate factorial : ");
+int inputNumber = int.Parse(ReadLine());
+
+WriteLine("{0} factorial is {1}", inputNumber, Factorial(inputNumber));
+
+static double Factorial(int input)
 {
-    class Program
+    double fact = 1;
+
+    for (double ctr = 1; ctr <= input; ctr++)
     {
-        static void Main(string[] args)
-        {
-            Write("Enter number to calculate factorial : ");
-            int inputNumber = int.Parse(ReadLine());
-
-            WriteLine("{0} factorial is {1}", inputNumber, Factorial(inputNumber));
-            ReadLine();
-        }
-
-        public static double Factorial(int input)
-        {
-            double fact = 1;
-
-            for (double ctr = 1; ctr <= input; ctr++)
-            {
-                fact = fact * ctr;
-            }
-
-            return fact;
-        }
+        fact = fact * ctr;
     }
+
+    return fact;
 }
